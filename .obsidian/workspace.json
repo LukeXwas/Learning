@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "2d9f21dfdf712fcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fb7c45c4372317f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61fbb654b7a7e23f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
+          }
+        ]
+      },
+      {
+        "id": "db19dad0cab88313",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bf5c8e70c99145e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "338a5d59e5e53bbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fb0008e29e25e01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b6cad490d724129",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9eae13adb8b54950",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7e62642a78c5936c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1a8516d4382534dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ed0e5e840f94f72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a3fe3630161acc1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "714be4ca4c6094fb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "83a9723002e1fb9f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f563d219371ce465",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0b6cad490d724129",
+  "lastOpenFiles": [
+    "Screenshot/git1.jpg",
+    "Screenshot/Pasted image 20241218201140.png",
+    "Screenshot/Pasted image 20241218200923.png",
+    "Screenshot/Pasted image 20241218200911.png",
+    "Screenshot/Pasted image 20241216130606.png",
+    "Screenshot/Pasted image 20241216130536.png",
+    "Screenshot/Pasted image 20241216130457.png",
+    "Screenshot/Pasted image 20241216130334.png",
+    "Screenshot/Pasted image 20241216130202.png",
+    "Screenshot/Pasted image 20241216123141.png",
+    "Screenshot/Pasted image 20241216122819.png",
+    "Screenshot",
+    "Red hat/Users management and privilege users/User Configuration Files.md",
+    "Red hat/Users management and privilege users/Root account and other users.md",
+    "Red hat/Users management and privilege users/Password managemet.md",
+    "Red hat/Users management and privilege users/Normal users corresponding files.md",
+    "Red hat/Users management and privilege users/Groups in linux.md",
+    "Red hat/Users management and privilege users/Basic command for user management.md",
+    "Red hat/Users management and privilege users/Administrative Control.md",
+    "Red hat/Systemd/cgroups.md",
+    "Red hat/Systemd/Units.md",
+    "Red hat/Systemd/Target Units.md",
+    "Red hat/Systemd/Systemd timers.md",
+    "Red hat/Systemd/Systemd dependencies.md",
+    "Red hat/Systemd/Systemd basics.md",
+    "Red hat/Systemd/Systemd - how it works.md",
+    "Red hat/Systemd/Socket Units.md",
+    "Red hat/Systemd/Setting the Default Target.md",
+    "Red hat/Systemd/Service Units.md",
+    "Red hat/Systemd/Mount Units.md",
+    "Red hat/Systemd/Manually edit unit config file.md",
+    "Red hat/Systemd/Managing Units Through Systemd.md",
+    "Red hat/Systemd/Managing Service Units.md",
+    "Red hat/Systemd/Between GRUB 2 and Login.md",
+    "Red hat/Storage/Storage Measurement Units.md",
+    "Red hat/Storage/Storage Management basics.md",
+    "Red hat/Storage/Partitions.md",
+    "Red hat/Users management and privilege users",
+    "Red hat/Systemd",
+    "Red hat/Storage",
+    "Red hat/SSH and related topics",
+    "Red hat/Process management",
+    "Red hat/Networking",
+    "Red hat/Linux boot process and GRUB",
+    "Red hat/Linux basics",
+    "Red hat/Linux Kernel"
+  ]
+}

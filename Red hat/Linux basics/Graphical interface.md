@@ -1,0 +1,4 @@
+**Wayland** is a client/server display protocol that sets up the foundation for running graphical programs and applications in RHEL 9, which includes system administration tools, user applications, as well as graphical display and desktop manager programs. It is available alongside the legacy X Window System. There are two components that are critical to the functionality of a graphical environment: a _display manager_ (a.k.a. _login manager_) and a _desktop environment_.
+
+1. _A display/login manager_ - handles the presentation of graphical login screen. In RHEL 9, the default display manager is called _GNOME Display Manager_ (GDM).
+2. _Desktop Environment_ (DE) - RHEL 9 comes with several graphical desktop software with GNOME desktop environment set as the default. It provides an easy and point-and-click GUI for users to run programs and operating system tools.

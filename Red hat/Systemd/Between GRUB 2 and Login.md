@@ -1,0 +1,5 @@
+The loading of Linux depends on a temporary filesystem, known as the initial RAM disk. Once the boot process is complete, control is given to systemd, known as the first process.
+
+After you select a kernel from the GRUB 2 configuration menu, Linux hands over boot responsibilities to the kernel with the help of the initial RAM disk, also known by its filename in the /boot directory, initramfs. As suggested by its name, it is actually a filesystem, but it is saved in a file rather than on a disk partition. During the boot process, Linux loads that temporary filesystem into your RAM. Lnux then loads hardware drivers and starts the first process, systemd.
+
+Next, systemd activates all the system units for the initrd.target and mounts the root filesystem under /sysroot. Finally, systemd restarts itself in the new root directory and activates all units for the default target.

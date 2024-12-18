@@ -1,0 +1,15 @@
+**_Systemd_ (short for _system daemon_) is the system initialization and service management mechanism. 
+
+It has fast-tracked system initialization and state transitioning by introducing features such as parallel processing of startup scripts, improved handling of service dependencies, and on-demand activation of services. Moreover, it supports snapshotting of system states, tracks processes using control groups, and automatically maintains mount points.
+
+- In order to benefit from parallelism, systemd initiates distinct services concurrently, taking advantage of multiple CPU cores and other compute resources. 
+- To that end, systemd creates sockets for all enabled services that support socket-based activation instantaneously at the very beginning of the initialization process.
+- It passes them on to service daemon processes as they attempt to start in parallel. This approach lets systemd handle inter-service order dependencies and allows services to start without any delays
+- With systemd, dependent daemons need not be running; they only need the correct socket to be available. systemd creates sockets first, starts daemons next, and caches any client requests to daemons that have not yet started in the socket buffer.
+- It fills the pending client requests when the daemons they were awaiting come online.
+
+**Socket is a communication method that allows two processes on the same or different systems to talk. D-Bus is another communication method that allows multiple services running in parallel on a system to talk to one another on the same or remote system.**
+
+During the operational state, systemd maintains the sockets and uses them to reconnect other daemons and services that were interacting with an old instance of a daemon before that daemon was terminated or restarted. Likewise, services that use activation based on D-Bus (_Desktop Bus_) are started when a client application attempts to communicate with them for the first time. Additional methods used by systemd for activation are device-based and path-based, with the former starting the service when a specific hardware type such as USB is plugged in, and the latter starting the service when a particular file or directory alters its state. 
+- With on-demand activation, systemd defers the startup of services—Bluetooth and printing—until they are actually needed during the boot process or during runtime. Together, parallelization and on-demand activation save time and compute resources, and contribute to expediting the boot process considerably.
+- Another major benefit of parallelism witnessed at system boot is when systemd uses the autofs service to temporarily mount the configured file systems. During the boot process, the file systems are checked that may result in unnecessary delays. With autofs, the file systems are temporarily mounted on their normal mount points, and as soon as the checks on the file systems are finished, systemd remounts them using their standard devices. Parallelism in file system mounts does not affect the root and virtual file systems.

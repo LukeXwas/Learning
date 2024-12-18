@@ -1,0 +1,5 @@
+- **Metody instalacji**:
+    - Manualna konfiguracja.
+    - Narzędzia typu **Packstack**, **DevStack** (do testów), **Kolla-Ansible** (do konteneryzacji).
+    - Dystrybucje OpenStacka, np. **Red Hat OpenStack Platform (RHOSP)**, **Mirantis**, **Canonical**.
+- **Wymagania systemowe** – Hardware, sieci i system operacyjny (najczęściej dystrybucje Linuxa, np. Ubuntu, CentOS).
